@@ -7,6 +7,10 @@
 
 ---
 
+## 示例结果
+
+![FreeU 对比结果](assets/compare_freeu_90000_singing.png)
+
 ## 一、方法简介
 
 FreeU 通过在 U-Net 上采样阶段对：
