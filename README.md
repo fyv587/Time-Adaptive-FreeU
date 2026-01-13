@@ -13,6 +13,11 @@
 
 ## 一、方法简介
 
+
+<p align="center">
+  <img src="assets/framework.png" width="800">
+</p>
+
 FreeU 通过在 U-Net 上采样阶段对：
 
 - backbone 特征（b1, b2）
