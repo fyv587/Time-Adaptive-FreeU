@@ -94,11 +94,11 @@ dataset = CocoHFParquet("data/coco2017_hf", split="train", size=512)
 CUDA_VISIBLE_DEVICES=0 python -m scripts.train_time_adaptive_freeu
 ```
 训练过程中：
-	•	Stable Diffusion（U-Net / VAE / Text Encoder）参数全部冻结
-	•	仅优化 DeltaFreeUSchedule 中的可学习参数
-	•	训练日志自动保存至 logs/
-	•	schedule 的 checkpoint 周期性保存至 ckpt/
-	•	同时记录 FreeU 参数在 inference timestep 上的变化（CSV 文件）
+- Stable Diffusion（U-Net / VAE / Text Encoder）参数全部冻结
+- 仅优化 `DeltaFreeUSchedule` 中的可学习参数
+- 训练日志自动保存至 `logs/`
+- schedule 的 checkpoint 周期性保存至 `ckpt/`
+- 同时记录 FreeU 参数在 inference timestep 上的变化（CSV 文件）
 
 ## 六、推理与效果对比
 
