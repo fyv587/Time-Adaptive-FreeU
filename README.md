@@ -1,6 +1,6 @@
 # Time-Adaptive FreeU
 
-本项目为课程大作业，复现并改进了 **FreeU（Free Lunch in Diffusion U-Net）** 方法。
+本项目为**25-26秋季学期：数字信号处理**课程大作业，复现并改进了 **FreeU（Free Lunch in Diffusion U-Net）** 方法。
 
 在原始 FreeU 使用固定的 **(b1, b2, s1, s2)** 超参数的基础上，本项目提出 **Time-Adaptive FreeU**：  
 将 FreeU 的调节参数设计为随 diffusion timestep 变化的可学习 schedule，在不训练原始 Stable Diffusion 模型的前提下，通过少量参数学习实现更好的结构–纹理权衡。
